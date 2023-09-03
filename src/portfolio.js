@@ -216,12 +216,12 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME PROJECTS THAT I HAVE SPENT TIME WORKING ON",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
+      projectName: "Text-tone Changer",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -233,8 +233,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Astrapia",
+      projectDesc: "A dynamic web application for visualization of data to analyze trends in S&P500 stocks. The project uses Yahoo Finance API to obtain real time data, Pandas for operating on the data, Streamlit library in Python for creating the frontend, and Cufflinks library to plot complex graphs like bollinger bands.",
       footerLink: [
         {
           name: "Visit Website",
@@ -304,7 +304,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
